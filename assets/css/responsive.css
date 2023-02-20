@@ -1,0 +1,83 @@
+
+
+@media (min-width : 740px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+    /* mobile vs taplet*/
+@media (max-width : 1023px ) { 
+    .img-chicago {
+        width: 100%;
+    }
+    .btn {
+        padding: 15px 16px;
+    }
+    .form-control {
+        padding: 15px;
+
+    }
+    #footer .social-list {
+        font-size: 24px;
+    }
+    #footer .social-list a {
+        padding: 0 8px;
+       
+    }
+    .contact-content .contact-info {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .form-control {
+        margin-top: 8px;
+    }
+}
+
+
+/* mobile */
+@media (max-width : 740px ) {
+    .s-col-full {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        
+        
+    }
+    #nav .subnav a {
+        
+        padding: 5px 45px;
+        color: #CCC;
+    }
+    #nav .subnav a:hover {
+        color: #000;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    .btn {
+        width: 100%;
+    }
+    .search-btn {
+        display:none ;
+    }
+   #content .menber-item {
+       margin-top: 30px;
+       width: 100%;
+   }
+   .contact-content .contact-info {
+    width: 100%;
+}
+
+}
